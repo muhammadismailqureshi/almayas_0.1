@@ -55,7 +55,6 @@ export default function ProductScreen() {
                 <button className='primary block'>Add to Cart</button>
               </li>
             </ul>
-
           </div>
 
         </div>

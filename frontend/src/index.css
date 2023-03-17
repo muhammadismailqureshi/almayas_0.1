@@ -1,8 +1,7 @@
-html{
+html {
   font-size: 62.5%; /*16px x 62.5 = 10px = 1rem */
   box-sizing: border-box;
 }
-
 
 body {
   margin: 0;
@@ -13,42 +12,37 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#root{
+#root {
   height: 100%;
 }
-
 
 /*Layout */
 .grid-container {
   display: grid;
-  grid-template-areas: 
-      'header'
-      'main'
-      'footer';
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
   grid-template-columns: 1fr;
   grid-template-rows: 5rem 1fr 5rem;
   height: 100%;
 }
-
 
 header {
   grid-area: header;
   background-color: #203040;
 }
 
-
 main {
   grid-area: main;
   padding: 1rem;
 }
-
 
 footer {
   grid-area: footer;
   background-color: #203040;
   color: #ffffff;
 }
-
 
 /*Common*/
 h1 {
@@ -59,22 +53,22 @@ h2 {
   font-size: 1.6rem;
   padding: 1rem 0;
 }
-a{
+a {
   text-decoration: none;
 }
 
 a:hover {
   color: #ff8000;
 }
-ul{
+ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-li{
+li {
   margin-top: 1rem;
 }
-button{
+button {
   padding: 1rem;
   border-radius: 0.5rem;
   border: 0.1rem #a4a4a4 solid;
@@ -83,27 +77,26 @@ button{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f8f8f8;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
-button:hover{
+button:hover {
   border: 0.1rem #404040 solid;
 }
-button.primary{
-  background-color: #f0c040 ;
+button.primary {
+  background-color: #f0c040;
 }
-button.block{
+button.block {
   width: 100%;
 }
 
-
 /*Header*/
-header a{
+header a {
   color: #ffffff;
   padding: 1rem;
 }
 
-a.brand{
+a.brand {
   color: #ffffff;
   font-size: 3rem;
   font-weight: bold;
@@ -119,16 +112,15 @@ a.brand{
 .row.center {
   justify-content: center;
 }
-.row.top{
+.row.top {
   align-items: flex-start;
 }
-.col-1{
+.col-1 {
   flex: 1 1 25rem;
 }
-.col-2{
+.col-2 {
   flex: 2 1 50rem;
 }
-
 
 /*Image*/
 img {
@@ -139,7 +131,7 @@ img.medium {
   width: 100%;
 }
 
-img.large{
+img.large {
   width: 100%;
 }
 
@@ -152,12 +144,12 @@ img.large{
 }
 
 .card-body {
-  padding: 1rem; 
+  padding: 1rem;
 }
-.card-body > *{
+.card-body > * {
   margin-bottom: 0.5rem;
 }
-.price{
+.price { 
   font-size: 2rem;
 }
 
@@ -177,16 +169,16 @@ img.large{
 .danger {
   color: #a02020;
 }
-.alert{
+.alert {
   padding: 1rem;
   border: 0.1rem solid transparent;
   border-radius: 0.5rem;
 }
-.alert-info{
+.alert-info {
   color: #2020a0;
   background-color: #e0e0ff;
-}.alert-danger{
+}
+.alert-danger {
   color: #a02020;
   background-color: #ffe0e0e0;
-
 }
