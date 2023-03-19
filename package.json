@@ -19,7 +19,9 @@
   "homepage": "https://github.com/muhammadismailqureshi/almayas_0.1#readme",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-redux": "^8.0.5"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
